@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+/*清风事件详情界面样式*/
+.mainbody{position:relative;width: 100%;}
+.mainbody .bannerImg{width:100%;}
+
+/*清风事件内容样式*/
+.mainbody .breezeBox{width: 100%;display: inline-block;}
+.breezeBox .breezeItem{position: relative; width: 90%; box-sizing: border-box; margin: auto; max-width: 1200px;padding-top: 30px;}
+.breezeBox .breezeItem .lblTitel{color:#b4b4b4;margin-bottom: 15px;}
+
+.breezeBox .breezeItem .Item{width:100%;display:inline-block;}
+.Item .bzLeft{width: 70%;float: left;padding: 20px 0;}
+.Item .bzLeft .lblLine{width: 48px; border: 2px solid #03c0fe; margin-bottom: 20px;}
+
+/*时间信息*/
+.Item .bzLeft .itemBox{margin: 20px 0; width: 100%; display: inline-block;}
+.Item .bzLeft .itemBox .itemLeft{width: 75px; height: 71px;text-align: center;background-color: #03c0fe;color: #fff; float: left; font-size: 10px;}
+.Item .bzLeft .itemBox .itemRight{ width: 89%; float: left; padding: 25px 30px;color: #b5b3b3;border: 1px solid #dcdcdc;}
+
+/*内容样式*/
+.Item .bzLeft .content p{line-height:26px;margin-bottom: 20px;}
+.Item .bzLeft .content .img{width:100%;margin-bottom:20px;}
+.Item .bzLeft .content ul li{width:50px;float:left;height:32px;line-height:32px;cursor:pointer;text-align:center;}
+.Item .bzLeft .content ul li:first-child{text-align:left;}
+.fsize16{font-size:16px;}
+.fsize36{font-size:36px;}
+
+/*右侧搜索样式*/
+.Item .bzRight{width: 28%;float:left;margin-left:2%;margin-top:22px;}
+.Item .bzRight .searchBox{width: 100%; border: 1px solid #dcdcdc;height: 36px;line-height: 36px;}
+.Item .bzRight .searchBox input[type="text"]{width: 88%; height: 32px; line-height: 32px;text-indent: 5px; border: none;outline: none;}
+.bzImg{width:100%;}
+.bzRight .otherAdv .line{width: 48px; border: 2px solid #0a64b4; margin-top: 35px;margin-bottom: 20px;}
+.bzRight .otherAdv .otherItem{width:100%;display:inline-block;margin-top: 16px;}
+.bzRight .otherAdv .otherItem li{width:32.3%;float:left;margin-right:1.5%;}
+.bzRight .otherAdv .otherItem li img{width:100%;}
+.bzRight .otherAdv .otherItem li:last-child{margin-right:0;}
+
+

@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/公共模板.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>清风事件详情</title>
+<link rel="stylesheet" href="css/wss_breezeDetail.css" />
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/commonIndex.css"/>
+</head>
+
+<body>
+	<!--首页公共顶部-->
+	<div class="comTop">
+    	<div class="navCon">
+        	<div class="resetWid1">
+            	<a href="首页/wss_index.html"><img class="logoIcon" src="img/wss-headLogo.png" alt="logo小图标"/></a>
+            </div>
+            <div class="resetWid2">
+            	<ul class="navUl">
+                	<li>
+                    	<a href="wss_公司简介.html">公司简介</a>
+                    	<ul class="dropdown-menu"></ul>
+                    </li>                  	
+                   	<li>
+                    	清风产品
+                    	<ul class="dropdown-menu">
+                        	<li><a href="wss_清风产品-新风系统.html">新风系统</a></li>
+                            <li> <a href="wss_清风产品-净化机.html">空气净化机</a></li>
+                        </ul>
+                    </li>           
+                    <li>
+                    	<a href="wss_核心技术.html">核心技术</a>
+                    	<ul class="dropdown-menu"></ul>
+                    </li>
+                    <li>
+                    	<a href="wss_清风事件.html">清风事件</a>
+                    	<ul class="dropdown-menu"></ul>
+                    </li>     
+                    <li>
+                    	<a href="wss_了解健康空气.html">了解健康空气</a>
+                    	<ul class="dropdown-menu"></ul>    
+                    </li>               
+                    <li>
+                    	<a href="wss_合作伙伴.html">合作伙伴</a>
+                    	<ul class="dropdown-menu"></ul>
+                    </li>              
+                   <li>
+                       <a href="wss_联系我们.html">联系我们</a>
+                       <ul class="dropdown-menu"></ul>
+                   </li>        
+                </ul>
+            </div>
+            
+            <!--点击搜索后内容-->
+            <div class="resetWid4 hide">            
+            	<img class="closeIcon" src="img/wss-closeIcon.png" alt="关闭图标"/>
+                <input class="texSearch" type="text" placeholder="请输入搜索关键字"/>            
+                <ul class="hide">
+                	<li>热门搜索</li>
+                    <li>空气净化</li>
+                    <li>核心技术</li>
+                    <li>大厦空气改造</li>
+                    <li>清风智媒</li>
+                    <li>清风产品</li>
+                </ul>
+            </div>
+            <!--点击搜索后内容  end-->
+            <div class="resetWid3" id="btnSearch"><img class="searchIcon" src="img/shousuo.jpg" alt="搜索小图标"/></div>
+        </div>        
+    </div>
+    <!--首页公共顶部  end-->
+    
+	<!-- InstanceBeginEditable name="mainbody" -->
+     <div class="mainbody">
+    	<!--清风事件详情banner-->
+        <img class="bannerImg" src="img/wss-coreBanner.png" alt="清风事件banner"/>
+        <!--清风事件详情banner  end-->
+        
+        <!--清风事件详情-->
+        <div class="breezeBox">
+        	<div class="breezeItem">
+            	<label class="lblTitel">清风事件&nbsp;&nbsp;/&nbsp;&nbsp;汉王清风科技有限公司联合创始人出席2017年中关村创新论坛</label>
+                <div class="Item">
+                	<div class="bzLeft">   
+                   		<label class="lblLine"></label>
+                        <p class="fsize16">汉王清风科技有限公司联合创始人出席2017年中关村创新论坛</p> 
+                        <!--时间信息-->
+                        <div class="itemBox">
+                        	<div class="itemLeft">
+                            	<p class="fsize36">13</p>
+                                <p>7月</p>
+                            </div>
+                            <div class="itemRight">编辑: 汉王清风  市场部  /  时间：2017年7月13日</div>
+                        </div>
+                        <!--时间信息  end-->
+                        
+                        <!--内容模块-->
+                        <div class="content">
+                        	<p>2017年6月11日,北京汉王清风科技有限公司(以下简称"汉王清风")联合创始人杨晶涛、王玉忠受邀参加"2017年中关村创新论坛",同各界领导、业内专家-同对论坛专题"新突破"、“新格局"、"新引擎"进行深入探讨。</p>
+                        	<p>我们所处在一个创新的时代,创新科技决定竞争力。回顾近年来我国创新创业的历程,可谓一日千里、突飞猛进。作为我国第一个国家自主创新示范区,中关村在这方面积累了丰富的经验。这些具有前瞻性的创新话题成为本次论坛的热点。</p>
+                            <img class="img" src="img/wss-breeze-DetailImg.png" alt="清风事件详情" />
+                            <p>汉王科技集团副总裁、汉王清风联合创始人杨晶涛表示科技创新的核心是为人服务,为人的本性服务,为人的感情服务。所以创新更要尊重传统,敬畏生命,才能更好的拥抱未来。</p>
+                            <p>汉王清风是一家以自主研发为主导的科技公司,致力于用科技创新改善环境质量,尤其在职场空气改善方面成绩尤为显著。自有原创清霾技术获得十余项国际发明专利,所推出的大空间只能清霾机一经问世便得到了各大知名企业的认可及青睐,目前已与腾讯、网易、小米、用友等百余家企业进行了深度合作。</p>
+                            <ul>
+                            	<li>分享:</li>
+                                <li><a href="#"><img src="img/wss-bzDetail-weixin.png" /></a></li>
+                                <li><a href="#"><img src="img/wss-bzDetail-xinlang.png" /></a></li>
+                                <li><a href="#"><img src="img/wss-bzDetail-yun.png" /></a></li>
+                                <li><a href="#"><img src="img/wss-bzDetail-weibo.png" /></a></li>
+                            </ul>
+                        </div>
+                        <!--内容模块  end-->
+                    </div>
+                    <div class="bzRight">
+                    	<!--搜索-->
+                    	<div class="searchBox">
+                        	<input type="text" placeholder="查找" />
+                            <img src="img/wss-breezeSearch.png" alt="搜索Icon"/>
+                        </div>
+                        <!--搜索  end-->
+                        
+                        <!--其他新闻-->
+                        <div class="otherAdv">
+                        	<label class="line"></label>
+                            <p>其他新闻</p>
+                            <ul class="otherItem">
+                            	<li><img src="img/wss-breezeSmall1.png" alt="新闻" /></li>
+                                <li><img src="img/wss-breezeSmall1.png" alt="新闻" /></li>
+                                <li><img src="img/wss-breezeSmall1.png" alt="新闻" /></li>
+                            </ul>
+                             <ul class="otherItem">
+                            	<li><img src="img/wss-breezeSmall2.png" alt="新闻" /></li>
+                                <li><img src="img/wss-breezeSmall3.png" alt="新闻" /></li>
+                                <li><img src="img/wss-breezeSmall4.png" alt="新闻" /></li>
+                            </ul>
+                        </div>
+                        <!--其他新闻  end-->
+                    </div>
+                </div>   
+            </div>
+        </div>
+        <!--清风事件详情  end-->
+    </div>
+	<!-- InstanceEndEditable -->
+   
+    <!--公共低部-->
+    <div class="otherComFooter">
+    	<div class="otherFooterNav">
+            <div>
+                <ul>
+                    <li><img src="img/wss-footerLogo.png" alt="底部logo"/></li>
+                    <li>北京汉王清风科技有限公司</li>
+                    <li>Beijing Hanvon breeze Technology Co., Ltd.</li>
+                    <li>
+                     	<!--微信鼠标划过弹层二维码 wss add 20170904 -->
+                    	<div class="weixin" onmouseover="this.className = 'weixin on';" onmouseout="this.className = 'weixin';">
+                        	<img class="img1" src="img/wss-weixin.png" alt="底部微信"/>                       
+                            <div class="weixin_nr">
+                                <img class="twoCode" src="img/wss-twoCode.jpg" alt="二维码"/>
+                            </div>                                                               
+                        </div>   
+                         <!--微信鼠标划过弹层二维码 wss add 20170904  end --> 
+                                         	
+                        <img class="img1" src="img/wss-footerTel.png" alt="底部手机" />
+                    </li>                
+                </ul>
+                <ul>
+                    <li>我们的合作伙伴</li>
+                    <li><span>腾讯</span><span>百度</span><span>58同城</span></li>
+                    <li><span>网易</span><span>滴滴</span><span>爱慕</span></li>
+                    <li><span>乐视体育</span><span>中欧商学院</span><span>比亚迪</span></li>
+                    <li><span>博学教育</span><span>斯伦贝谢</span><span>中关村产业园</span></li>
+                    <li>......</li>                              
+                </ul>
+                <ul>
+                    <li>联系我们</li>   
+                    <li class="mb38">电话：010-82786542</li>
+                    <li>北京市海淀区中关村软件园5号楼汉王大厦</li>
+                    <li>Beijing Haidian District City,Zhongguancun</li>
+                    <li>Hanvon Building Software Park Building No.5</li>
+                </ul>                         
+            </div>  
+            <div>
+            	 <li class="frindLink">友情链接:清风智媒</li>
+            	 <li class="bz">© 2017 hanwang qingfeng. 版权所有. 隐私条款 | 使用条款 北京汉王清风科技有限公司 备案号: 京I</li>   
+            </div>    
+        </div>
+    </div>
+    <!--公共低部  end-->
+	
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/commonJs.js"></script>
+    <!-- InstanceBeginEditable name="pageJs" -->
+
+	<!-- InstanceEndEditable -->
+
+</body>
+<!-- InstanceEnd --></html>

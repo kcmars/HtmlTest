@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+.mb10{margin-bottom:10px;}
+.fz16{font-size:16px;}
+.mb0{margin-top: 0!important;}
+
+.bgColor{background-color: #0a64b4!important;}
+/*清风产品-净化机样式*/
+.mainbody{position:relative;width: 100%;}
+.mainbody .bannerImg{width:100%;}
+
+.mainbody .productBox{width: 100%;display: inline-block;}
+.productBox .productNav{position: relative; width: 90%; box-sizing: border-box; margin: auto; max-width: 1200px;padding-top: 30px;}
+.productBox .productNav .brand{color: #b4b4b4;padding-bottom: 15px;font-size: 10px;}
+.productBox .productNav .navUl{display: inline-block;}
+.productBox .productNav .navUl li{float: left; background-color: #a0a0a0;padding: 4px 12px; border-radius: 5px;color: #fff; margin-right: 10px;cursor: pointer;}
+.activeLi{background-color: #03c0fe!important;}
+
+/*空气净化机/新风系统*/
+.productBox .productNav .Pbox1{ width: 100%;display: inline-block; margin-top: 25px; margin-bottom: 25px;}
+.Pbox1 .Pbox1Left{width: 45%;float: left;text-align: center;}
+.Pbox1 .Pbox1Left .imgp{width: 400px; height: 380px;}
+.Pbox1 .Pbox1Right{width: 50%;float: left; margin-left: 5%;}
+.Pbox1 .Pbox1Right .title{background-color: #03c0fe;height: 34px; line-height: 34px;color: #fff; padding-left: 20px;}
+.Pbox1 .Pbox1Right ul{width: 50%;min-height:287px;float: left;padding: 30px;background-color: #f0f0f0;}
+.Pbox1 .Pbox1Right ul li{color: #505050;font-size: 12px; margin-bottom: 15px;}
+.Pbox1 .Pbox1Right ul li:nth-child(1){font-size: 14px;}
+
+/*净化效果检测样式*/
+.productBox .productNav .Pbox2{ width: 100%;display: inline-block;}
+.Pbox2 .Pbox2Left{width: 60%;float: left;border-right: 1px solid #ddd;padding-right: 3%;}
+.Pbox2 .Pbox2Left img{width: 100%;}
+.Pbox2 .Pbox2Right{width: 32%;float: left;margin-left: 8%;}
+.Pbox2 .Pbox2Right ul{display: inline-block;margin-top: 20px;}
+.Pbox2 .Pbox2Right ul li{float: left;margin-right: 20px;}
+.Pbox2 .Pbox2Right .pDes{ margin-top: 13px;margin-bottom: 20px; padding-left: 30px;}
+
+/*我们的应用按钮*/
+.ourCase .titleCase{text-align: center;font-size: 16px;margin-top: 30px;margin-bottom: 10px;}
+.ourCase .caseUl1{width: 100%;display: inline-block;margin: 1.5% 0 0;}
+.ourCase .caseUl1 li{width:32.3%;float: left;margin-right: 1.5%;}
+.ourCase .caseUl1 li .caseImg{width: 100%;}
+.caseUl1 li:last-child{margin-right:0;}
+
+.ourCase .caseUl2{ width: 100%;display: inline-block;margin: 1.3% 0 0;}
+.ourCase .caseUl2 li{width: 24%;float: left;margin-right:1.3%;}
+.ourCase .caseUl2 li .caseImg1{width: 100%;}
+.ourCase .caseUl2 li:last-child{margin-right: 0;}
+
+/*描述*/
+.des{margin-top: 40px; text-align: center;font-size: 15px;}
+.des .titleDes{color: #0a64b4;font-size: 20px;}
+.mb30{margin-bottom:30px;}
+.mb15{margin-bottom:15px;}

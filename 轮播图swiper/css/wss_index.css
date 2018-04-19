@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+/*首页轮播图样式*/
+.swiper-container div,.header .swiper-container img{width: 100%;}
+.swiper-pagination-bullet{opacity:1;background-color: #fff;}
+.header .swiper-pagination.swiper-pagination-bullets{width:120px;height: 15px; left: 90%;padding: 2px 7px;}
+.swiper-pagination .swiper-pagination-bullet-active{opacity: 1;width: 12px!important;height: 12px!important;border: 2px solid #fff;background-color: transparent;margin-top: 2px;}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{margin: 0 8px;vertical-align: middle;width: 8px;height: 8px;border-radius: 100%;}
+
+/*首页banner调整  wss add 20170905*/
+.mainbody{height: 80%;height: calc(100% - 110px);height: -webkit-calc(100% - 110px);height: -moz-calc(100% - 110px);}
+.indexBanner{width:100%;}

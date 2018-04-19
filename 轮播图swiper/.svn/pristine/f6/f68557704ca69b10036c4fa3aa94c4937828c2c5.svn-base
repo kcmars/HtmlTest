@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*核心技术界面样式*/
+.mainbody{position:relative;width: 100%;}
+.mainbody .bannerImg{width:100%;}
+
+/*产品核心技术*/
+.mainbody .coreBox{width: 100%;display: inline-block;}
+/*.coreBox .coreNav{position: relative; width: 90%; box-sizing: border-box; margin: auto; max-width: 1200px;padding-top: 30px;}
+.coreBox .coreNav .brand{color: #b4b4b4;padding-bottom: 15px;font-size: 10px;}*/
+
+.coreBox .coreNav .coreItem1{width:100%;display:inline-block;}
+.coreItem1 .core1Left{ width: 33%;height:356px;float: left; background-color: #f0f0f0;padding: 30px 20px;}
+.coreItem1 .core1Left label{width: 45px; border: 2px solid #03c0fe;margin-bottom: 20px;}
+.coreItem1 .core1Left .t1{line-height:30px;color: #acacac;}
+.coreItem1 .core1Right{ width: 65%;float: left; margin-left: 2%;}
+.coreItem1 .core1Right img{width:100%;height:356px;}
+
+/*介绍*/
+.coreBox .coreNav .coreItem2{width:100%;display: inline-block;margin:35px 0;}
+.coreItem2 .core2Left{width: 49%;float: left;} 
+.coreItem2 .core2Left li{line-height:30px;}
+.coreItem2 .core2Right{ width: 49%; float: left; margin-left: 2%;}
+.coreItem2 .core2Right li{line-height:30px;}
+
+
+/*20170904 界面宽度调整  wss  add*/
+.mainbody{background-color:#fff;}
+.mainbody .bannerImg{height:300px;}
+.coreBox .coreNav{position: relative; width: 84%; box-sizing: border-box; margin: auto; max-width: 1000px;padding-top: 30px;}
+.coreBox .coreNav .brand{color: #b4b4b4;padding-bottom: 30px;font-size: 12px;}

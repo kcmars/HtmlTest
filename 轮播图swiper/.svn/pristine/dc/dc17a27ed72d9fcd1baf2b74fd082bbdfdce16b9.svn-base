@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/首页模板页.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>首页</title>
+<link rel="stylesheet" href="../css/swiper-3.4.2.min.css"/>
+<link rel="stylesheet" href="../css/wss_index.css" />
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" href="../css/bootstrap.min.css" />
+<link rel="stylesheet" href="../css/reset.css" />
+<link rel="stylesheet" href="../css/commonIndex.css"/>
+<style type="text/css">
+	html,body{position: relative; width: 100%!important;min-width: 992px!important;max-width:100%!important;}
+</style>
+</head>
+
+<body>
+	<!--首页公共顶部-->
+	<div class="comTop">
+    	<div class="navCon">
+        	<div class="resetWid1">
+            	<a href="wss_index.html"><img class="logoIcon" src="../img/wss-headLogo.png" alt="logo小图标"/></a>
+            </div>
+            <div class="resetWid2">
+            	<ul class="navUl">
+                	<li>
+                    	<a href="../wss_公司简介.html">公司简介</a>
+                    	<ul class="dropdown-menu"></ul>
+                    </li>                  	
+                   	<li>
+                    	清风产品
+                    	<ul class="dropdown-menu">
+                        	<li><a href="../wss_清风产品-新风系统.html">新风系统</a></li>
+                            <li> <a href="../wss_清风产品-净化机.html">空气净化机</a></li>
+                        </ul>
+                    </li>           
+                    <li>
+                    	<a href="../wss_核心技术.html">核心技术</a>
+                    	<ul class="dropdown-menu"></ul>
+                    </li>
+                    <li>
+                    	<a href="../wss_清风事件.html">清风事件</a>
+                    	<ul class="dropdown-menu"></ul>
+                    </li>     
+                    <li>
+                    	<a href="../wss_了解健康空气.html">了解健康空气</a>
+                    	<ul class="dropdown-menu"></ul>    
+                    </li>               
+                    <li>
+                    	<a href="../wss_合作伙伴.html">合作伙伴</a>
+                    	<ul class="dropdown-menu"></ul>
+                    </li>              
+                   <li>
+                       <a href="../wss_联系我们.html">联系我们</a>
+                       <ul class="dropdown-menu"></ul>
+                   </li>        
+                </ul>
+            </div>
+            
+            <!--点击搜索后内容-->
+            <div class="resetWid4 hide">            
+            	<img class="closeIcon" src="../img/wss-closeIcon.png" alt="关闭图标"/>
+                <input class="texSearch" type="text" placeholder="请输入搜索关键字"/>            
+                <ul class="hide">
+                	<li>热门搜索</li>
+                    <li>空气净化</li>
+                    <li>核心技术</li>
+                    <li>大厦空气改造</li>
+                    <li>清风智媒</li>
+                    <li>清风产品</li>
+                </ul>
+            </div>
+            <!--点击搜索后内容  end-->
+            <div class="resetWid3" id="btnSearch"><img class="searchIcon" src="../img/shousuo.jpg" alt="搜索小图标"/></div>
+        </div>        
+    </div>
+    <!--首页公共顶部  end-->
+    
+	<!-- InstanceBeginEditable name="mainbody" -->
+    <div class="mainbody">
+    	<!--首页轮播图-->
+    	<div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"> 
+                    <img class="indexBanner" src="../img/wss-indexBanner1.png" alt="banner图"/>
+                </div>
+                <div class="swiper-slide"> 
+                    <img class="indexBanner" src="../img/wss-indexBanner2.png" alt="banner图"/> 
+                </div>
+               <div class="swiper-slide"> 
+                    <img class="indexBanner" src="../img/wss-indexBanner1.png" alt="banner图"/>
+                </div>
+                <div class="swiper-slide"> 
+                    <img class="indexBanner" src="../img/wss-indexBanner2.png" alt="banner图"/> 
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <!--首页轮播图 end-->
+    </div>
+	<!-- InstanceEndEditable -->
+   
+    <!--首页公共低部-->
+    <div class="comFooter">
+    	<div class="pFooter">
+        	<!--20170904  界面调整微信Icon隐藏 wss add-->
+        	<!--<img src="../img/wss-weixin.png" alt="微信小图标"/>-->
+            <!--20170904  界面调整微信Icon隐藏 wss add  end-->
+       		<span>北京汉王清风科技有限公司  /  Beijing Hanvon breeze Technology Co., Ltd.</span>
+        </div>
+    </div>
+    <!--首页公共低部  end-->
+	
+    <script type="text/javascript" src="../js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="../js/commonJs.js"></script>
+    <!-- InstanceBeginEditable name="pageJs" -->
+	<script type="text/javascript" src="../js/swiper-3.4.2.min.js"></script>
+    
+	<script type="text/javascript">
+    	<!--首页轮播图js-->
+		var mySwiper = new Swiper('.swiper-container',{
+			pagination : '.swiper-pagination',
+			loop: true,
+			autoplay:3000,
+			speed:1000,
+			paginationClickable :true,
+		});
+		<!--首页轮播图js  end-->
+    </script><!-- InstanceEndEditable -->
+
+</body>
+<!-- InstanceEnd --></html>

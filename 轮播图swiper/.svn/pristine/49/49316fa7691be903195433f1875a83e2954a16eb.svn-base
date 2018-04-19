@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+	
+/*合作伙伴界面样式*/
+.mainbody{position:relative;width: 100%;}
+.mainbody .bannerImg{width:100%;}
+
+/*合作伙伴各个轮播图标样式*/
+.mainbody .partnerBox{width: 100%;display: inline-block;margin-bottom: -40px;}
+.partnerBox .partnerItem{position: relative; width: 90%; box-sizing: border-box; margin: auto; max-width: 1200px;padding-top: 30px;}
+.partnerBox .partnerItem label{width: 45px; border: 2px solid #03c0fe;margin: 10px 0 20px;}
+.partnerBox .partnerItem p{font-size:16px;margin-bottom: 20px;}
+
+/*轮播样式*/
+.swiper-container .swiper-wrapper{margin-bottom: 60px;}
+.swiper-container .swiper-wrapper .swiper-slide ul{width:100%;display:inline-block;margin-bottom: 1.33%;}
+.swiper-container .swiper-wrapper .swiper-slide ul li{width: 24%;float: left;margin-right: 1.33%;}
+.swiper-container .swiper-wrapper .swiper-slide ul li:last-child{margin-right:0;}
+.swiper-pagination .swiper-pagination-bullet-active{opacity: 1;width: 12px;height: 12px;border: 2px solid #cdcdcd;background-color: transparent;}
+.swiper-container-horizontal .swiper-pagination-bullets .swiper-pagination-bullet{vertical-align:middle;}
+/*.swiper-slide{height:195px;overflow:hidden;}
+.swiper-slide-active{height:auto;}*/
+
+/*20170904  界面宽度调整  wss add*/
+.mainbody{background-color:#fff;padding-bottom:60px;}
+.mainbody .bannerImg{height:300px;}
+.partnerBox .partnerItem{width:84%;max-width:1000px;}
+.swiper-container .swiper-wrapper .swiper-slide ul li{width: 15.6%; float: left; margin-right: 1.28%;}
+.swiper-container .swiper-wrapper .swiper-slide ul li img{width:100%;}

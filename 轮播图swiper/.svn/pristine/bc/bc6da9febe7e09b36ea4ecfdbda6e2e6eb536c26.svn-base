@@ -1,0 +1,37 @@
+// JavaScript Document
+
+ $(function (){
+	 
+	 /*首页导航二级菜单切换事件*/
+	  $(".navUl li a").click(function(){ 
+		var _this = $(".navUl li a");
+		$(_this).removeClass("menuLiActive");
+		
+		if($(this).siblings(".dropdown-menu").is(":hidden")){  
+			$(".dropdown-menu").hide();  
+			$(this).addClass("menuLiActive");
+			$(this).siblings(".dropdown-menu").show();  
+			
+		}else{  
+			$(this).removeClass("menuLiActive");	
+			$(this).siblings(".dropdown-menu").hide();  								
+		}  
+	}); 
+	/*首页导航二级菜单切换事件  end*/
+	 
+	/*导航搜索事件*/
+	$("#btnSearch").click(function (){
+		$(".resetWid2").addClass("hide");	
+		$(".resetWid4").removeClass("hide");
+	});
+	
+	$(".closeIcon").click(function (){
+    	$(".resetWid2").removeClass("hide");	
+		$(".resetWid4").addClass("hide");
+	});
+	
+	$(".texSearch").focus(function (){
+		$(".resetWid4 ul").removeClass("hide");	
+	});
+	/*导航搜索事件 end*/
+ });

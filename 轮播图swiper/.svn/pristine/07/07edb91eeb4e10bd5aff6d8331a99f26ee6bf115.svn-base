@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+/*清风产品-新风系统样式*/
+.c1{color: #03c0fe;}
+.mainbody{position:relative;width: 100%;}
+.mainbody .bannerImg{width:100%;}
+
+/*解决方案*/
+.mainbody .systemBox{width: 100%;display: inline-block;}
+.systemBox .productNav{position: relative; width: 90%; box-sizing: border-box; margin: auto; max-width: 1200px;padding-top: 30px;}
+.systemBox .productNav .brand{color: #b4b4b4;padding-bottom: 15px;font-size: 12px;}
+.systemBox .productNav .navUl{display: inline-block;}
+.systemBox .productNav .navUl li{float: left; background-color: #a0a0a0;padding: 4px 12px; border-radius: 5px;color: #fff; margin-right: 10px;cursor: pointer;}
+.activeLi{background-color: #03c0fe!important;}
+.systemBox .productNav .t1{font-size: 16px;margin-top: 20px; margin-bottom: 20px;}
+.systemBox .productNav .titleImg{margin-top: 40px;margin-bottom: 30px;}
+.systemBox .productNav .caseImg{width:100%;margin-bottom: 20px;}
+
+/*产品核心技术*/
+.productHeart{width:100%;display: inline-block;margin-bottom: 35px;}
+.heartTitle{font-size: 16px; margin-bottom: 15px;}
+.line{width: 45px; border: 2px solid #03c0fe;margin: 30px 0 20px;}
+.productHeart .heartLeft{width: 49%;float: left;} 
+.productHeart .heartLeft li{line-height:30px;}
+.productHeart .heartLeft li:first-child{margin-bottom: 20px;}
+.productHeart .heartRight{ width: 49%; float: left; margin-left: 2%;}
+.productHeart .heartRight li{line-height:30px;}
+
+/*选择清风的理由*/
+.chooseReason .reasonTitle{ height: 50px;line-height: 50px; background-color: #03c0fe; color: #fff; font-size: 16px;padding-left: 20px;}
+.chooseReason .item{width:100%;display: inline-block;}
+.chooseReason .item ul{width: 32.3%; float: left; padding: 30px 0;margin-right: 1.5%; border-bottom: 2px solid #03c0fe;}
+.chooseReason .item ul:last-child{margin-right:0;}
+.chooseReason .item ul li{line-height:25px;}
+.chooseReason .item ul li img{margin-right:10px;}
+.bnone{border-bottom:none!important;}
+.H137{height: 137px;}
+
+/*20170904  界面宽度调整  wss  add*/
+.mainbody{background-color:#fff;padding-bottom:60px;}
+.mainbody .bannerImg{height:300px;}
+.systemBox .productNav{width:84%;max-width:1000px;}
+
+.chooseReason .item ul li img{width:40px;height:40px;}
+.H152{height:152px;}
